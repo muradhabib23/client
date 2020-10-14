@@ -15,7 +15,7 @@ const Review = () => {
         formData.append('company', review.company);
         formData.append('description', review.description);
     
-        fetch('http://localhost:5000/review ', {
+        fetch('https://obscure-tundra-91995.herokuapp.com/review ', {
             method: 'POST',
             body: formData
         })

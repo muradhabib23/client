@@ -9,7 +9,7 @@ const ServiceList = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://obscure-tundra-91995.herokuapp.com/orders', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ date: orderList, email: loggedInUser.email })

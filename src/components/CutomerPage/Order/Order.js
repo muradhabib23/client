@@ -25,7 +25,7 @@ const handleSubmitOrder = () => {
     formData.append('detail', order.detail);
     formData.append('price', order.price);
 
-    fetch('http://localhost:5000/addOrder ', {
+    fetch('https://obscure-tundra-91995.herokuapp.com/addOrder ', {
         method: 'POST',
         body: formData
     })
