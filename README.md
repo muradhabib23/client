@@ -2,6 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Creative Agency (MERN): https://creative-agency-website-c1be4.web.app/ 
+
+•	Built REST API, responsive, full-stack website
+•	Used carousel, form, sidebar, image upload, database queries
+•	Post data to database and used in required section
+Technology: React.js, MongoDB, Express, Node.js, Bootstrap, Firebase, Heroku, GitHub
+
 In the project directory, you can run:
 
 ### `npm start`
